@@ -11,13 +11,13 @@ body{
 }
 
 .title {
-    margin-top: 150px;
+    margin-top: 10%;
     font-size: 120%;
     color: #ffffff;
 }
 
 #num {
-    font-size: 200%;
+    font-size: 300%;
     color: rgb(255,255,50);
 }
 
