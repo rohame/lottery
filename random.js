@@ -1,6 +1,6 @@
 let flag = 1;
-const from = 449001;
-const to = 449200;
+const from = 9001;
+const to = 9200;
 let randomIndex = 0;
 
 let arr = []
@@ -16,7 +16,8 @@ function changeNumber(){
     if(flag==0){
         return
     }
-    randomIndex = d3.randomInt(0, to-from+1)();
+    console.log(arr.length);
+    randomIndex = d3.randomInt(0, arr.length)();
     d3.select('#num')
       .text(arr[randomIndex]);
     setTimeout('changeNumber()',50);
