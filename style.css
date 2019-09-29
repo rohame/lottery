@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(./background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(./background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -11,7 +11,7 @@ body{
 }
 
 .title {
-    margin-top: 10%;
+    margin-top: 6%;
     font-size: 120%;
     color: #ffffff;
 }
@@ -21,7 +21,7 @@ body{
     color: rgb(255,255,50);
 }
 
-a {
+.btn {
     font-size: 60%;
     font-weight: 400;
     margin: 0 30px;
@@ -29,4 +29,18 @@ a {
     border-radius: 20px;
     padding: 10px;
     background-color: rgb(221, 221, 221,0.9);
+}
+
+.logo-container {
+    width: 60%;
+    margin: 3% 20%;
+}
+
+.logos {
+    float: left;
+    margin: 0 20px;
+}
+
+.logo {
+    height: 100px;
 }
